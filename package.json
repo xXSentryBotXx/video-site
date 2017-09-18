@@ -1,0 +1,26 @@
+{
+  "name": "video-site",
+  "version": "1.0.0",
+  "description": "Video site to practice web development.",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xXSentryBotXx/video-site.git"
+  },
+  "keywords": [
+    "Video",
+    "Streaming"
+  ],
+  "author": "Luis Davila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xXSentryBotXx/video-site/issues"
+  },
+  "homepage": "https://github.com/xXSentryBotXx/video-site#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
