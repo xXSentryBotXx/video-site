@@ -4,6 +4,7 @@
   "description": "Video site to practice web development.",
   "main": "server.js",
   "scripts": {
+    "start": "node server",
     "test": "mocha"
   },
   "repository": {
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/xXSentryBotXx/video-site#readme",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "express": "^4.15.4"
   }
 }
