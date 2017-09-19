@@ -5,6 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3300;
 
 app.use(express.static(path.join(__dirname, 'app')));
+app.use('/css', express.static(path.join(__dirname, '/node_modules/bootstrap/dist/css')));
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/app/index.html');
